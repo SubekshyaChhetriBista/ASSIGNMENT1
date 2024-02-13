@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+header {
+    background-color: #b27b14;
+    padding: 20px;
+    text-align: center;
+}
+
+
+main {
+    padding: 20px;
+}
+
+fieldset {
+    border: 1px solid #de0d0d;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    width: calc(100% - 220px);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+footer {
+    background-color: #b27b14;
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pizza Home </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+<!-- Header Section -->
+<header>
+    <h1> Welcome to Pizza Home </h1>
+    <h4> Fill out the form below to place your order. </h4>
+    <img src="pizza.jpg" height="100%" width="100%">
+</header>
+    <!-- Main Section -->
+    <main>
+        <form>
+            
+         <br> 
+         <fieldset>
+            <legend> Pizza Details </legend><br>
+
+        <div>
+            <label for="number"> Number of Pizzas:</label>
+            <input type="number" id="number" name="number" min="1">
+        </div>
+
+         <br><br>
+            <label for="size"> Choose Size(number of slices):</label><br>
+
+            <label for="small"> Small (6 slices)</label>
+            <input type="radio" id="small" name="size" value="small(6 slices)"> <br>
+
+            <label for="medium"> Medium (8 slices)</label>
+            <input type="radio" id="medium" name="size" value="medium(8 slices)"> <br>
+
+            <label for="large"> Large (10 slices)</label>
+            <input type="radio" id="large" name="size" value="large(10 slices)"> <br>
+
+            <label for="family size"> Family Size (12 slices)</label>
+            <input type="radio" id="family size" name="size" value="family size(12 slices)"> 
+            <br><br>
+            
+            <label for="shape"> Choose Shape:</label>
+            <select id="shape" name="shape" required>
+                <option value="round">Round</option>
+                <option value="medium">Square</option>
+            </select>
+<br><br>
+<label for="toppings">Choose Toppings:</label><br>
+
+        <input type="checkbox" id="chicken" name="toppings" value="chicken">
+        <label for="chicken">Chicken</label><br>
+    
+        <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+        <label for="mushrooms">Mushrooms</label><br>
+    
+        <input type="checkbox" id="sausage" name="toppings" value="sausage">
+        <label for="sausage">Sausage</label><br>
+    
+        <input type="checkbox" id="onions" name="toppings" value="onions">
+        <label for="onions">Onions</label><br>
+    
+        <input type="checkbox" id="peppers" name="toppings" value="peppers">
+        <label for="peppers">Peppers</label><br>
+
+        <input type="checkbox" id="Bacons" name="toppings" value="Bacons">
+        <label for="Bacons">Bacons</label><br>
+    
+        <input type="checkbox" id="Tomatoes" name="toppings" value="Tomatoes">
+        <label for="Tomatoes">Tomatoes</label>
+    
+<br><br>
+
+<label> Choose Crust Type:</label>
+
+<input type="radio" id="Regular" name="crustType" value="Regular">
+<label for="regular">Regular</label>
+
+<input type="radio" id="deepDish" name="crustType" value="deepDish">
+<label for="deepDish">Deep Dish</label>
+
+<input type="radio" id="thinCrust" name="crustType" value="thinCrust">
+<label for="thinCrust">Thin Crust</label>
+
+<br><br>
+  
+    <label>Choose Order Type:</label>
+    <input type="radio" id="takeout" name="deliveryoption" value="takeout" checked>
+    <label for="takeout">Take Out</label>
+
+    <input type="radio" id="delivery" name="deliveryoption" value="delivery">
+    <label for="delivery">Delivery</label>
+
+    <input type="radio" id="eat_in" name="deliveryoption" value="eat_in">
+    <label for="eat_in">Eat In</label> <br><br>
+
+    </fieldset>
+    <br><br>
+                
+
+    <fieldset>
+    <legend> Customer Details </legend><br>
+    <!-- Customer Information -->
+
+        <label for="order"> Name: </label>
+        <input type="text" id="name" name="name"  placeholder="WriteYourFullName" required><br><br>
+
+        <label for="order"> Date: </label>
+        <input type="text" id="Date" name="Date"  placeholder="YYYY/MM/DD" required><br><br>
+
+        <label for="order"> Number: </label>
+        <input type="text" id="number" name="number"  placeholder="123-456-7890" required><br><br>
+
+        <label for="order"> Email: </label>
+        <input type="text" id="Email" name="Email"  placeholder="abc@gmail.com" required><br><br>
+
+        <label for="order"> Address: </label>
+        <input type="text" id="address" name="address" placeholder="Address line 1"  required><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" id="address" name="address" placeholder="Address line 2"  required><br><br>
+
+        <label for="order"> Postal Code: </label>
+        <input type="text" id="postal code" name="Postal Code"  placeholder="A1B 2C3" required><br><br>
+     </fieldset>
+            
+        <div class="btn">
+                <!-- Submit Button -->
+                <button type="submit">Submit Order</button>
+                <button type="reset">Reset Form</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Pizza Home</p>
+        <p>Enjoy our delicious pizza!<br><!-- Message -->
+    </footer>    
+</body>
+</html>
